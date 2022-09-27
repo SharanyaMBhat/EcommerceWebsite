@@ -101,7 +101,10 @@ return (
         onAdd,
         setShowCart,
         toggleCartItemQuantity,
-        onRemove
+        onRemove,
+        setCartItems,
+        setTotalPrice,
+        setTotalQuantities
     }}>
     {children}
     </Context.Provider>
