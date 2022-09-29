@@ -71,7 +71,7 @@ const Cart = () => {
             <div className='item-desc'>
               <div className='flex top'>
                 <h5>{item.name}</h5>
-                <h4>$ {item.price}</h4>
+                <h4>Rs. {item.price}</h4>
               </div>
 
               <div className='flex bottom'>
@@ -99,7 +99,7 @@ const Cart = () => {
               <div className='cart-bottom'>
                 <div className='total'>
                   <h3>Subtotal:</h3>
-                  <h3>${totalPrice}</h3>
+                  <h3>Rs. {totalPrice}</h3>
                 </div>
 
                 <div className='btn-container'>
